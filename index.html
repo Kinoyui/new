@@ -1,1 +1,158 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Yui's portfolio</title>
+  <link rel="stylesheet" href="stylesheet2.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+  $(function(){
+    $('a[href^=#]').click(function(){
+      var speed = 500;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+  });
+
+</script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="header-list">
+      <ul>
+        <li><a href="#top">Motto</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <div class="top">
+
+
+      <div class="title">
+        きのポートフォリオ
+      </div>
+      <img src="mypictop.jpg" width=”100%”>
+
+
+
+
+    </div>
+
+    <div class="motto">
+      <div class="title">
+        <h2>MOTTO</h2>
+        <h5>モットー</h5>
+      </div>
+      <h2>やらないは損。なんでもやってみる。</h2>
+      <h5>友達に一緒にやらないかと言われたフリーペーパー制作サークル。<br>
+        有志で集まって行う運営係。地域の学生同士の交流を促すプロジェクトの協力。<br>
+        今まで「やりたい」と言って様々なことを経験し、成長できた。<br>
+        「やらない」と言うのは自分の成長の可能性を0にするということだ。</h5>
+      </div>
+
+      <div class="profile">
+
+        <div class="title">
+          <h2>Profile</h2>
+          <h5>プロフィール</h5>
+        </div>
+
+        <div class="statea">
+          <h1>木下 唯衣</h1>
+          <h2>公立はこだて未来大学　システム情報科学部情報<br>アーキテクチャ学科　
+            情報デザインコース所属<br>
+            <br>
+            誕生日　　：1997年10月18日（20歳）<br>
+            サークル　：軽音学部（ボーカル、ベース）<br>
+            好きなこと：写真を撮ること、歌うこと<br>
+          </h2>
+        </div>
+
+      </div>
+
+      <div class="works">
+
+
+
+        <div class="title">
+          <h2>Works<br><span>
+          制作作品</span></h2>
+        </div>
+
+        <div class="lamp contents">
+          <h6>課題制作</h6>
+          <h2>花ランプシェード</h2>
+          <h4>手を近づけて花に水をやると点灯する。<br>育成ランプシェード
+水やりの仕方で花が咲いたり枯れたりする。</h4>
+<a href="#" class="cp_btn">MORE</a>
+        </div>
+
+
+                <div class="tray contents">
+                  <h6>課題制作</h6>
+                  <h2>20Tray</h2>
+                  <h4>食事ペースと食事時間をストレスなく適切に導くトレー。</h4>
+        <a href="#" class="cp_btn">MORE</a>
+                </div>
+
+                <div class="web contents">
+                  <h6>課題制作</h6>
+                  <h2>Webサイト改善</h2>
+                  <h4>既存ウェブサイトを構造化し問題を発見し解決策した。<br>
+ワイヤーフレームのストーリボードを書き、モックアップを作成し、<br>
+評価実験を行った。</h4>
+                <a href="#" class="cp_btn">MORE</a>
+                </div>
+
+                <div class="tomato contents">
+                  <h6>自主制作</h6>
+                  <h2>トマトジュース<br>
+ポスター、パンフレット</h2>
+                  <h4>クライアントの制作会社の方と直接ヒアリングし制作した。<br>
+実際に店舗などで使用された。</h4>
+                <a href="#" class="cp_btn">MORE</a>
+                </div>
+                <div class="case contents">
+                  <h6>自主制作</h6>
+                  <h2>iPhoneケース</h2>
+                  <h4>自分用に制作。<br>
+シンプルなデザインの中に、強い意味が詰まっている。</h4>
+                <a href="#" class="cp_btn">MORE</a>
+                </div>
+
+      </div>
+
+      <div class="contact">
+
+        <div class="title">
+          <h2>Contact</h2>
+          <h5>連絡先</h5>
+        </div>
+
+        <div class="tex">
+          <h3>お問い合わせはメール、SNSもしくは、お問い合わせフォームへ</h3>
+        </div>
+
+
+      </div>
+
+
+
+      <footer>
+        <div class="tex">(C)2018 Kinoshita Yui</div></footer>
+
+      </div>
+    </div>
+  </body>
+  </html>
