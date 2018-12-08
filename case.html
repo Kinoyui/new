@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Yui's portfolio</title>
+  <link rel="stylesheet" href="stylesheet2.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+  $(function(){
+    $('a[href^=#]').click(function(){
+      var speed = 500;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+  });
+
+</script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="header-list">
+      <ul>
+        <li><a href="#top">Motto</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container">
+
+<img src="lamp.jpg" width=”100%”>
+
+  </div>
+  </body>
+  </html>
