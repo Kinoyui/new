@@ -41,6 +41,10 @@ header a{
   padding: 100px;
 }
 
+.works{
+  padding:100px 0;
+}
+
 .motto .title h5{
   left:245px;
 }
@@ -110,14 +114,8 @@ header li{
   font-size: 2.5rem;
 }
 
-.works .contents{
+.works .con{
 
-
-}
-
-
-.works .contents{
-  padding: 100px;
 }
 .works .contents h6{//課題or自主
   font-size: 0.6rem;
@@ -135,7 +133,19 @@ header li{
   color: white;
 }
 .works .contents{
-  height:300px;
+  height:500px;
+}
+
+
+
+.works .con{
+  float: left;
+  padding:100px;
+}
+
+.works img{
+  float: right;
+  margin: 0;
 }
 
 .works .lamp{
@@ -199,6 +209,6 @@ footer .tex{
   width:50%;
 }
 
-.lampcon .video,.used{
+.lampcon .video,.used,.backg-title{
   text-align: center;
 }
