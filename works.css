@@ -1,0 +1,305 @@
+
+
+html{
+  font-size: 18px;
+  /*width:getWinSize();後で記入*/
+  width:1349px;
+  color:#8F6D6D;
+}
+
+
+body {
+  margin: 0;
+  font-family:"游ゴシック Medium",Segoe Script, Georgia, "Noto Sans JP",  "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  position: relative;
+
+}
+
+
+header {
+  position: fixed;
+  transform-origin: left top;
+  height: 50px;
+  width: 100%;
+  background-color: #CD853F;
+  z-index: 2147483647;
+
+
+}
+.header-list{
+  width: 90%;
+  margin:auto;
+}
+header ul{
+
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+  height:50px;
+
+  margin: 0;
+
+}
+header li{
+  display: inline-block;
+  width:100px;
+  margin: 10px;
+  text-align: center;
+
+}
+
+header a{
+
+  text-decoration: none;
+  color:white;
+  font-family: Cambria Bold;
+  font-size:20px;
+}
+
+.softicon{
+width: 3%;
+}
+
+.softicon img{
+  width: 100%;
+}
+
+.toramtop{
+  width:1349px;
+
+}
+.tramtop .top{
+  text-align: center;
+}
+.tramtop .title{
+
+  display: inline-block;
+  margin: 100px 20px 0 0;
+
+}
+.tramtop .title h1{
+  font-size: 40px;
+}
+.tramtop .softicon{
+  display: inline-block;
+
+
+}
+.tramtop .softicon img{
+
+}
+
+.tramtop p{
+  width:50%;
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+}
+.tramtop .hp{
+  text-align: center;
+}
+.tramtop .hp .tramhp{
+
+}
+
+.tramtop .aikya{
+  width:80%;
+  text-align: center;
+  margin: auto;
+}
+.tramtop .tyu{
+  display: inline-block;
+  width: 30%;
+  margin-right:50px;
+
+}
+.tramtop .tyu img{
+  width:100%;
+}
+.tramtop .saishu{
+  width: 30%;
+  display: inline-block;
+}
+.tramtop .saishu img{
+  width:100%;
+}
+
+
+.tyutram,.saishutram{
+  width:100%;
+  margin:200px 0;
+}
+
+.tyutram .title,.saishutram .title{
+  text-align: center;
+}
+.tyutram .title h1,.saishutram .title h1{
+  font-size: 40px;
+  margin: 0;
+}
+.tyutram .title h6,.saishutram .title h6{
+  font-size: 14px;
+  margin: 0;
+}
+
+.tyuai,.saishuai{
+  width: 80%;
+  margin: 50px auto 100px auto;
+  text-align: center;
+}
+.tyuai .image,.saishuai .image{
+  display: inline-block;
+  width:30%;
+  margin:0 50px;
+}
+.tyuai img,.saishuai img{
+  width:100%;
+}
+
+
+.contents{
+  display: inline-block;
+  width: 30%;
+  margin:0 50px;
+}
+
+.contents h1,.saicontents h1{
+  width: 100%;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+.contents h1 span,.saicontents h1 span{
+  width: 100%;
+  color: #CC7575;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+.contents h5,.saicontents h5{
+  width: 100%;
+  font-size: 14px;
+  text-align: left;
+}
+
+.tyutram{
+  background-image: url("tyuhaikei.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.saishutram{
+  background-image: url("saishuhaikei.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.saishucon{
+  width:70%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+.saishucon .saicontents{
+  width: 35%;
+}
+.saishucon .image{
+  margin: 50px auto;
+  width: 65%;
+}
+.saishucon .image img{
+  width: 100%;
+}
+
+
+.lb {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.7);
+    opacity: 0;
+    transition: .3s opacity ease;
+    z-index: -1;
+}
+.lb img {
+    width: auto !important;
+    max-height: 100%!important;
+    transform: scale(.7);
+    transition: .4s transform ease;
+    pointer-events: none;
+}
+.lb:target {
+    opacity: 1;
+    z-index: 103;
+}
+.lb:target img {
+    transform: scale(1);
+}
+/* なんちゃって閉じるボタン（いらない場合は消す） */
+.lb::before,.lb::after {
+    display: block;
+    position: fixed;
+    content: "";
+    width: 24px;
+    height:3px;
+    top: 24px;
+    right: 12px;
+    background: #fff;
+    border-radius: 4px;
+}
+.lb::before {
+    transform: rotate(-315deg);
+}
+.lb::after {
+    transform: rotate(315deg);
+}
+
+
+.link{
+  width:100%;
+}
+.link .title{
+  text-align: center;
+}
+.link h1{
+  margin: 0;
+}
+.link h5{
+  margin: 0;
+}
+
+.link .linkcon{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.link .tomatolink{
+  display: inline-block;
+  margin: 50px;
+}
+
+footer{
+  width:100%;
+  text-align: center;
+  height:80px;
+  background-color: #CD853F;
+}
+footer .tex{
+  padding: 20px;
+}
+
+/*
+やること
+１．イラストimg & イラレアイコン & 背景画像作成
+２．レイアウト微調整（トラム展HP → 写真集or自作）
+３．LINK作成

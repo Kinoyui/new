@@ -1,0 +1,300 @@
+
+
+html{
+  font-size: 18px;
+  /*width:getWinSize();後で記入*/
+  width:1349px;
+  color:#8F6D6D;
+}
+
+
+
+body {
+  margin: 0;
+  font-family:"游ゴシック Medium",Segoe Script, Georgia, "Noto Sans JP",  "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  position: relative;
+
+}
+
+
+header {
+  position: fixed;
+  transform-origin: left top;
+  height: 50px;
+  width: 100%;
+  background-color: #CD853F;
+  z-index: 2147483647;
+
+
+}
+.header-list{
+  width: 90%;
+  margin:auto;
+}
+header ul{
+
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+  height:50px;
+
+  margin: 0;
+
+}
+header li{
+  display: inline-block;
+  width:100px;
+  margin: 10px;
+  text-align: center;
+
+}
+
+header a{
+
+  text-decoration: none;
+  color:white;
+  font-family: Cambria Bold;
+  font-size:20px;
+}
+
+.top{
+  height:100vh;
+  text-align: center;
+  position: relative;
+
+  background-image: url("topback.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+.top .title{
+  top: -100px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+  height:0;
+  position: absolute;
+  position: fixed;
+
+
+
+
+}
+
+.profile .title,.works .title,.contact .title{
+  text-align: center;
+  background-color: white;
+  width:100%;
+}
+
+
+.profile{
+  background-color: white;
+  width:100%;
+  background-image:url(tyuhaikei.jpg);
+  height:100vh;
+  font-size: 12px;
+  background-color: gray;
+
+
+}
+
+
+.profile .profileCon{
+  width:50%;
+  padding:30px;
+  float: right;
+}
+
+.profile .statea{
+  text-align: left;
+}
+
+.profile .skill{
+  float: left;
+}
+
+.profile .software{
+  float:left;
+  padding:0 10px 0 0;
+}
+
+.skill img{
+  width: 5%;
+}
+
+.profile .language{
+  float:left;
+  padding: 0 0 0 10px;
+}
+.title{
+  margin:   0;
+}
+.title .title1{
+  font-size: 33px;
+}
+
+.title .title2{
+  font-size: 110px;
+}
+
+.motto{
+  height:100vh;
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  background-color: #E7E2D7;
+
+}
+
+.motto .text{
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 45%;
+  position: absolute;
+  padding:100px 0;
+}
+
+.motto h2{
+  font-size: 18px;
+  font-weight: bold;
+}
+.motto h2 span{
+  color:#CC7575;
+}
+
+.works{
+  width:100%;
+  font-size: 12px;
+  background-color: pink;
+
+
+}
+
+.web{
+  width: 100%;
+  height:80vh;
+  background-color:blue;
+}
+.works .web .conten{
+  text-align: center;
+
+}
+.works .web .con{
+  display: inline-block;
+  width: 25%;
+  text-align: left;
+  color: white;
+  padding-right: 30px;
+}
+.works .web .imm{
+
+  display: inline-block;
+
+}
+.works .web img{
+
+  height:80vh;
+}
+
+.cp_btn{
+  color:white;
+}
+
+
+
+.tram{
+  width: 100%;
+  height:80vh;
+  background-color:gray;
+}
+.works .tram .conten{
+  text-align: center;
+
+}
+.works .tram .con{
+  display: inline-block;
+  width: 25%;
+  text-align: left;
+  color: white;
+  padding-right: 30px;
+}
+.works .tram .imm{
+
+  display: inline-block;
+
+}
+.works .tram img{
+  height: 80vh;
+
+}
+
+.works .botan{
+  text-align: center;
+  margin: 50px 0;
+}
+.btn-flat-border {
+  font-size: 15px;
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+}
+.btn-flat-border:hover {
+  background: #67c5ff;
+  color: white;
+}
+
+.contact{
+  width:100%;
+}
+.contact .tex{
+  text-align: center;
+
+}
+.contact .tex h3{
+
+  font-weight: lighter;
+  font-size: 15px;
+}
+.contact .mailadd{
+  text-align: center;
+
+}
+.contact .mailadd h6{
+  font-weight: bold;
+  font-size: 18px;
+}
+.contact .sns{
+  text-align: center;
+}
+
+footer{
+  width:100%;
+  text-align: center;
+  height:80px;
+  background-color: #CD853F;
+}
+
+footer .tex{
+  padding: 20px;
+}
+
+/*
+１．画像・アイコン作成
+２．ボタンデザイン
+３．配色などレイアウト微調整
+
+企業に合わせた改善案つくる
