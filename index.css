@@ -71,7 +71,6 @@ header a{
 
 
 }
-
 .top .title{
   top: -100px;
   right: 0;
@@ -81,8 +80,6 @@ header a{
   width: 80%;
   height:0;
   position: absolute;
-  position: fixed;
-
 
 
 
@@ -103,7 +100,6 @@ header a{
   font-size: 12px;
   background-color: gray;
 
-
 }
 
 
@@ -122,16 +118,17 @@ header a{
 }
 
 .profile .software{
-  float:left;
+  display: inline-block;
   padding:0 10px 0 0;
 }
 
 .skill img{
   width: 5%;
+  margin-right: 10px;
 }
 
 .profile .language{
-  float:left;
+  display: inline-block;
   padding: 0 0 0 10px;
 }
 .title{
