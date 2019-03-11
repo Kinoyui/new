@@ -8,18 +8,18 @@
 
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>
-  　$(function(){
-    　$('a[href^=#]').click(function(){
+  $(function(){
+    $('a[href^=#]').click(function(){
       var speed = 500;
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
       var position = target.offset().top;
-      　$("html, body").animate({scrollTop:position}, speed, "swing");
-    　  return false;
-  　  });
-　  });
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+  });
 
-　</script>
+  </script>
 
 
 
@@ -87,27 +87,50 @@
             <div class="skillheading">
               <h1>SKILL</h1>
 
-              </div>
-              <div class="software">
+            </div>
+            <div class="software">
 
-                <div class="skillheading1">
-                  software
-                </div>
+              <div class="skillheading1">
+                software
+              </div>
+              <div class="iconn">
                 <img src="illustrator.png">
+
+                <h1>illustrator</h1>
+
+              </div>
+              <div class="iconn">
                 <img src="photoshop.png">
+                <h1>photoshop</h1>
+              </div>
+              <div class="iconn">
                 <img src="xd.png">
+                <h1>XD</h1>
+              </div>
+              <div class="iconn">
                 <img src="sai.png">
+                <h1>SAI</h1>
               </div>
-              <div class="language">
+            </div>
+            <div class="language">
 
-                <div class="skillheading2">
-                  language
-                </div>
+              <div class="skillheading2">
+                language
+              </div>
+              <div class="iconn">
                 <img src="html.png">
-                <img src="css.png">
-                <img src="processing.png">
-
+                <h1>HTML5</h1>
               </div>
+              <div class="iconn">
+                <img src="css.png">
+                <h1>CSS3</h1>
+              </div>
+              <div class="iconn">
+                <img src="processing.png">
+                <h1>Processing</h1>
+              </div>
+
+            </div>
 
           </div>
 

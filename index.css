@@ -113,19 +113,26 @@ header a{
   text-align: left;
 }
 .profile .profileCon .statea h3{
-  font-size: 18px;
+  font-size: 14px;
+  line-height:1.6rem;
+  font-weight: lighter;
+
 }
 .profile .profileCon .statea h1{
   font-size: 60px;
   font-weight: bold;
   margin:0;
+  line-height: 3rem;
 }
 .profile .profileCon .statea h2{
   margin: 0;
   font-size: 20px;
+  opacity: 0.3;
+
 }
 .profile .profileCon .statea h5{
   font-size: 14px;
+  margin-top:20px;
 }
 
 
@@ -141,7 +148,7 @@ header a{
   width:100%;
 }
 .profile .software{
-  width: 40%;
+  width: 45%;
   display: inline-block;
   padding:0 10px 0 0;
 }
@@ -151,13 +158,29 @@ header a{
   font-size: 20px;
 }
 
-.skill img{
+.profile .skill .iconn{
+  text-align: center;
   width: 20%;
-  margin-right: 10px;
+    margin-right: 12px;
+    display: inline-block;
+
+}
+
+.profile .skill .iconn h1{
+  width: 100%;
+  line-height: 0rem;
+  font-size:13px;
+}
+
+
+
+.skill img{
+  width: 100%;
+
 }
 
 .profile .language{
-  width: 40%;
+  width: 45%;
   display: inline-block;
   padding: 0 0 0 10px;
 }
