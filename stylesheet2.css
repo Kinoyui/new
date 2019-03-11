@@ -114,8 +114,8 @@ header li{
   font-size: 2.5rem;
 }
 
-.works .con{
-
+.works .title h2{
+line-height: 0.4em;
 }
 .works .contents h6{//課題or自主
   font-size: 0.6rem;
