@@ -3,21 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Yui's portfolio</title>
+
   <link rel="stylesheet" href="index.css">
+
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>
-  $(function(){
-    $('a[href^=#]').click(function(){
+  　$(function(){
+    　$('a[href^=#]').click(function(){
       var speed = 500;
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
       var position = target.offset().top;
-      $("html, body").animate({scrollTop:position}, speed, "swing");
-      return false;
-    });
-  });
+      　$("html, body").animate({scrollTop:position}, speed, "swing");
+    　  return false;
+  　  });
+　  });
 
-</script>
+　</script>
 
 
 
@@ -82,7 +84,10 @@
           </div>
           <div class="skill">
 
-            <div class="skill heading">
+            <div class="skillheading">
+              <h1>SKILL</h1>
+
+              </div>
               <div class="software">
 
                 <div class="skillheading1">
@@ -103,7 +108,7 @@
                 <img src="processing.png">
 
               </div>
-            </div>
+
           </div>
 
 
