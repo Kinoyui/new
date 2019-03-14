@@ -1,7 +1,7 @@
 
 
 html{
-  font-size: 18px;
+  font-size: 20px;
   /*width:getWinSize();後で記入*/
   width:1349px;
   color:#8F6D6D;
@@ -10,7 +10,7 @@ html{
 
 body {
   margin: 0;
-  font-family:"游ゴシック Medium",Segoe Script, Georgia, "Noto Sans JP",  "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "Noto Sans JP",  "游ゴシック体", "Yu Gothic Medium", "YuGothic", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   position: relative;
 
 }
@@ -22,7 +22,7 @@ header {
   height: 50px;
   width: 100%;
   background-color: #CD853F;
-  z-index: 2147483647;
+  z-index: 2147483640;
 
 }
 .header-list{
@@ -52,7 +52,7 @@ header a{
   text-decoration: none;
   color:white;
   font-family: Cambria Bold;
-  font-size:20px;
+  font-size:1rem;
 }
 
 .softicon{
@@ -77,7 +77,7 @@ width: 3%;
 
 }
 .tramtop .title h1{
-  font-size: 40px;
+  font-size: 1.5rem;
 }
 .tramtop .softicon{
   display: inline-block;
@@ -90,7 +90,7 @@ width: 3%;
 
 .tramtop p{
   width:50%;
-  font-size: 15px;
+  font-size: 0.8rem;
   text-align: center;
   margin: auto;
 }
@@ -133,11 +133,12 @@ width: 3%;
   text-align: center;
 }
 .tyutram .title h1,.saishutram .title h1{
-  font-size: 40px;
+  font-size: 2rem;
   margin: 0;
+  font-weight: bold;
 }
 .tyutram .title h6,.saishutram .title h6{
-  font-size: 14px;
+  font-size: 0.8rem;
   margin: 0;
 }
 
@@ -148,9 +149,27 @@ width: 3%;
 }
 .tyuai .image,.saishuai .image{
   display: inline-block;
+  width:40%;
+  margin:0 50px;
+
+}
+.top .tyuai .image,.top .saishuai .image{
+  display: inline-block;
   width:30%;
   margin:0 50px;
+
 }
+
+.hai img{
+    margin:auto:
+}
+
+.hai{
+  height:100%;
+  width:100%;
+  }
+
+
 .tyuai img,.saishuai img{
   width:100%;
 }
@@ -158,27 +177,40 @@ width: 3%;
 
 .contents{
   display: inline-block;
-  width: 30%;
+  width: 40%;
   margin:0 50px;
+  vertical-align: 300%;
+
 }
+
+.haisho .contents{
+  display: inline-block;
+  width: 40%;
+  margin:0 50px;
+  vertical-align: -50%;
+
+}
+
 
 .contents h1,.saicontents h1{
   width: 100%;
-  font-size: 20px;
+  font-size: 1rem;
   text-align: left;
+
   font-weight: bold;
 }
 .contents h1 span,.saicontents h1 span{
   width: 100%;
   color: #CC7575;
-  font-size: 20px;
+  font-size: 1rem;
   text-align: left;
   font-weight: bold;
 }
 .contents h5,.saicontents h5{
   width: 100%;
-  font-size: 14px;
+  font-size: 0.8rem;
   text-align: left;
+  opacity: 0.9;
 }
 
 .tyutram{
@@ -208,7 +240,7 @@ width: 3%;
 }
 .saishucon .image{
   margin: 50px auto;
-  width: 65%;
+  width: 70%;
 }
 .saishucon .image img{
   width: 100%;
@@ -238,7 +270,7 @@ width: 3%;
 }
 .lb:target {
     opacity: 1;
-    z-index: 103;
+    z-index: 2147483644;
 }
 .lb:target img {
     transform: scale(1);
@@ -250,7 +282,7 @@ width: 3%;
     content: "";
     width: 24px;
     height:3px;
-    top: 24px;
+    top: 70px;
     right: 12px;
     background: #fff;
     border-radius: 4px;

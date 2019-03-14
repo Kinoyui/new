@@ -184,6 +184,7 @@ header a{
   width: 45%;
   display: inline-block;
   padding: 0 0 0 10px;
+  vertical-align:top;
 }
 .title{
   margin:   0;
@@ -250,7 +251,8 @@ header a{
   text-align: left;
   color: white;
   padding-right: 30px;
-  vertical-align:middle;
+  vertical-align:top;
+  padding: 100px 0;
 }
 .works .web .imm{
 
@@ -285,6 +287,8 @@ header a{
   width: 25%;
   text-align: left;
   padding-right: 30px;
+  vertical-align:top;
+  padding: 100px 0;
 }
 .works .tram .imm{
 
@@ -296,10 +300,17 @@ header a{
 
 }
 
+.works .tram .cp_btn{
+  color:#8F6D6D;
+}
+
+
+
 .works .botan{
   text-align: center;
   margin: 50px 0;
 }
+
 .btn-flat-border {
   font-size: 15px;
   display: inline-block;
