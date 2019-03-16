@@ -7,17 +7,12 @@ html{
   color:#8F6D6D;
 }
 
-
-
 body {
   margin: 0;
   font-family:"游ゴシック Medium",Segoe Script, Georgia, "Noto Sans JP",  "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   position: relative;
 
 }
-
-
-
 header {
   position: fixed;
   transform-origin: left top;
@@ -94,7 +89,8 @@ header a{
 
 .profile{
   width:100%;
-  background-image:url(profile.jpg);
+  background-image:url(profile.png);
+  /*background-position:0 -200px;*/
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
@@ -149,7 +145,7 @@ header a{
   width:100%;
 }
 .profile .software{
-  width: 45%;
+  width: 50%;
   display: inline-block;
   padding:0 10px 0 0;
 }
