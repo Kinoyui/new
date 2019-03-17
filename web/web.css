@@ -1,0 +1,97 @@
+html{
+  font-size: 20px;
+  /*width:getWinSize();後で記入*/
+  width:1349px;
+  color:#8F6D6D;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Noto Sans JP",  "游ゴシック体", "Yu Gothic Medium", "YuGothic", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  position: relative;
+
+}
+
+header {
+  position: fixed;
+  transform-origin: left top;
+  height: 50px;
+  width: 100%;
+  background-color: #CD853F;
+  z-index: 2147483640;
+
+}
+.header-list{
+  width: 90%;
+  margin:auto;
+}
+header ul{
+
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+  height:50px;
+
+  margin: 0;
+
+}
+header li{
+  display: inline-block;
+  width:100px;
+  margin: 10px;
+  text-align: center;
+
+}
+
+header a{
+
+  text-decoration: none;
+  color:white;
+  font-family: Cambria Bold;
+  font-size:1rem;
+}
+
+.top{
+  width:100%;
+  height: 100vh;
+
+  background-image: url("webhaikei.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top .topcon{
+  width: 80%;
+  margin: auto;
+}
+
+.top .image{
+  display: inline-block;
+  float: left;
+  width:45%;
+}
+
+.top .con{
+  display: inline-block;
+  width: 45%;
+  float: right;
+  color:white;
+}
+
+.top .title{
+  display: inline-block;
+  width: 70%;
+
+}
+
+.top .soft{
+  display: inline-block;
+  width: 25%;
+}
+
+
+.top .soft img{
+  width:25%;
+}
