@@ -52,7 +52,7 @@ header a{
   font-size:1rem;
 }
 
-.top{
+.katop{
   width:100%;
   height: 100vh;
 
@@ -62,36 +62,204 @@ header a{
   background-size: cover;
 }
 
-.top .topcon{
+.katop .topcon{
   width: 80%;
+  height: 100%;
   margin: auto;
-}
+  padding: 80px 0 0 0;
 
-.top .image{
+
+}
+.katop .image{
   display: inline-block;
   float: left;
   width:45%;
 }
-
-.top .con{
+.katop .con{
   display: inline-block;
   width: 45%;
   float: right;
   color:white;
+  margin: 100px 0 0 0;
 }
+.katop h5{
+  margin:0;
+  color: #ED9B25;
 
-.top .title{
+}
+.katop .title{
   display: inline-block;
   width: 70%;
-
+  margin: 0;
+}
+.katop .title h1{
+  margin: 0;
+  font-size: 2rem;
 }
 
-.top .soft{
+.katop .con h4{
+  font-size: 1rem;
+  margin: 20px 0 0 0;
+}
+.katop .con h3{
+  font-size: 0.8rem;
+  font-weight: lighter;
+  margin: 10px 0 0 0
+}
+.katop .con h2{
+  font-size: 0.7rem;
+  font-weight: lighter;
+  margin: 20px 0 0 0
+}
+.katop .con a{
+  text-decoration:underline;
+  color: white:
+}
+.katop .soft{
   display: inline-block;
   width: 25%;
 }
-
-
-.top .soft img{
+.katop .soft img{
   width:25%;
+}
+
+
+.sagyou{
+  width:100%;
+  padding: 80px 0;
+}
+.sagyou .sagyoucon{
+  width: 80%;
+  margin:auto;
+  text-align: center;
+
+}
+
+.sagyou h1{
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.sagyou .con{
+  width: 20%;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.sagyou .naka1{
+  margin: 0 20px;
+}
+.sagyou .naka2{
+  margin: 0 20px 0 0;
+}
+.sagyou .con h2{
+  font-size: 1rem;
+}
+.sagyou .con h5{
+  font-size: 0.7rem;
+}
+
+.kadai{
+  width: 100%;
+}
+
+.kadai .kadaicon{
+  width: 80%;
+  margin: auto;
+}
+
+.kadai .top{
+  width: 100%;
+}
+
+.kadai .toptitle{
+  position: relative;
+  display: inline-block;
+  width: 30%;
+}
+
+.kadai img{
+  width: 20%;
+}
+
+.kadai .toptitle .title{
+  position: absolute;
+  top:-28px;
+  left:10px;
+  font-weight:bold;
+  font-size: 1.3rem;
+}
+
+.kadai .top .soft{
+  display: inline-block;
+  width: 20%;
+  vertical-align: -40%;
+}
+
+.kadai .top .soft img{
+    width:15%;
+}
+
+.kadai .top .text{
+  width: 100%;
+  margin: 0 0 0 15px;
+  font-size: 0.9rem;
+}
+
+.kadai .con1{
+  margin: auto;
+  width:80%;
+  text-align: center;
+}
+
+.kadai .con1 .content1{
+  width:30%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.kadai .con1 h2{
+  font-size: 1rem;
+}
+
+.kadai .con1 .content1 img{
+  width: 100%;
+}
+
+.kadai .con1 .image{
+  width: 10%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 100px;
+}
+
+.kadai .con1 .image img{
+  width: 100%;
+
+}
+
+.kadai .con1 .content2{
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.kadai .con1 .content2 .con{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+    margin: 0 10px;
+
+}
+
+.kadai .con1 .content2 .con h3{
+  font-size: 0.8rem;
+}
+
+.kadai .con1 .content2 .con img{
+  width: 100%;
+
 }
