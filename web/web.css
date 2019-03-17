@@ -4,8 +4,6 @@ html{
   width:1349px;
   color:#8F6D6D;
 }
-
-
 body {
   margin: 0;
   font-family: "Noto Sans JP",  "游ゴシック体", "Yu Gothic Medium", "YuGothic", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
@@ -43,7 +41,6 @@ header li{
   text-align: center;
 
 }
-
 header a{
 
   text-decoration: none;
@@ -61,7 +58,6 @@ header a{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .katop .topcon{
   width: 80%;
   height: 100%;
@@ -134,12 +130,11 @@ header a{
   text-align: center;
 
 }
-
 .sagyou h1{
   text-align: center;
   margin: 0 0 50px 0;
+  font-size: 2rem;
 }
-
 .sagyou .con{
   width: 20%;
   display: inline-block;
@@ -161,6 +156,8 @@ header a{
 
 .kadai{
   width: 100%;
+  background-color: #EFEFEF;
+  padding:80px 0;
 }
 
 .kadai .kadaicon{
@@ -168,41 +165,37 @@ header a{
   margin: auto;
 }
 
-.kadai .top{
+.top{
   width: 100%;
 }
 
-.kadai .toptitle{
+.toptitle{
   position: relative;
   display: inline-block;
   width: 30%;
 }
 
-.kadai img{
+.toptitle img{
   width: 20%;
 }
-
-.kadai .toptitle .title{
+.toptitle .title{
   position: absolute;
-  top:-28px;
-  left:10px;
+  top:-18px;
+  left:40px;
   font-weight:bold;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
-
-.kadai .top .soft{
+.top .soft{
   display: inline-block;
   width: 20%;
-  vertical-align: -40%;
+  vertical-align: 0%;
 }
-
-.kadai .top .soft img{
-    width:15%;
+.top .soft img{
+  width:15%;
 }
-
-.kadai .top .text{
+.top .text{
   width: 100%;
-  margin: 0 0 0 15px;
+  margin: -10px 0 0 40px;
   font-size: 0.9rem;
 }
 
@@ -211,22 +204,18 @@ header a{
   width:80%;
   text-align: center;
 }
-
 .kadai .con1 .content1{
   width:30%;
   text-align: center;
   display: inline-block;
   vertical-align: top;
 }
-
 .kadai .con1 h2{
   font-size: 1rem;
 }
-
 .kadai .con1 .content1 img{
   width: 100%;
 }
-
 .kadai .con1 .image{
   width: 10%;
   text-align: center;
@@ -234,32 +223,120 @@ header a{
   vertical-align: top;
   margin: 0 100px;
 }
-
 .kadai .con1 .image img{
   width: 100%;
 
 }
-
 .kadai .con1 .content2{
   width: 30%;
   text-align: center;
   display: inline-block;
   vertical-align: top;
 }
-
 .kadai .con1 .content2 .con{
   width: 40%;
   display: inline-block;
   vertical-align: top;
-    margin: 0 10px;
+  margin: 0 10px;
 
 }
-
 .kadai .con1 .content2 .con h3{
   font-size: 0.8rem;
 }
-
 .kadai .con1 .content2 .con img{
   width: 100%;
 
+}
+
+.kadai .con2{
+  width:100%;
+  margin: 50px 0;
+}
+.kadai .con2 h2{
+  opacity: 0.5;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.kadai .con2 h3{
+  margin: 0;
+}
+.kadai .con2 .image{
+  width: 100%;
+  text-align: center;
+  margin: 50px 0;
+}
+.kadai .con2 .image img{
+  width: 80%;
+
+}
+.kadai .con2 .image h4{
+  font-size: 0.8rem;
+  color: #CC7575;
+}
+
+.kaiketu{
+  width:100%;
+  padding:80px 0;
+}
+.kaiketu .kaiketucon{
+  width:80%;
+  margin: auto;
+}
+.kaiketu .imagee{
+  margin: 20px auto;
+  width: 60%;
+}
+.kaiketu .imagee img{
+  width: 100%;
+}
+
+.kaiketu .con{
+  width: 100%;
+}
+.kaiketu .con .pick{
+  opacity: 0.5;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.kaiketu .con .pick h2{
+  margin: 0;
+}
+.kaiketu .con h3{
+  margin: 0 0 50px 0;
+}
+.kaiketu .con .image{
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 20px;
+}
+.kaiketu .con .image img{
+  width: 100%;
+
+}
+
+.kaiketu .contents{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.kaiketu .contents h1{
+  font-size: 1.2rem;
+}
+.kaiketu .contents h2{
+  font-size: 0.7rem;
+}
+.kaiketu .co{
+  width: 100%;
+  text-align: center;
+}
+
+.mokku{
+  width:100%;
+  padding:80px 0;
+  background-color: #EFEFEF;
 }
