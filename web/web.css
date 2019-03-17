@@ -6,7 +6,7 @@ html{
 }
 body {
   margin: 0;
-  font-family: "Noto Sans JP",  "游ゴシック体", "Yu Gothic Medium", "YuGothic", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   position: relative;
 
 }
@@ -99,8 +99,8 @@ header a{
 }
 .katop .con h3{
   font-size: 0.8rem;
-  font-weight: lighter;
-  margin: 10px 0 0 0
+  font-weight: normal;
+  margin: 10px 0 0 0;
 }
 .katop .con h2{
   font-size: 0.7rem;
@@ -152,6 +152,7 @@ header a{
 }
 .sagyou .con h5{
   font-size: 0.7rem;
+  font-weight: normal;
 }
 
 .kadai{
@@ -197,6 +198,11 @@ header a{
   width: 100%;
   margin: -10px 0 0 40px;
   font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.top .text h5{
+  font-weight: normal;
 }
 
 .kadai .con1{
@@ -260,6 +266,7 @@ header a{
 }
 .kadai .con2 h3{
   margin: 0;
+  font-size: 1rem;
 }
 .kadai .con2 .image{
   width: 100%;
@@ -305,6 +312,7 @@ header a{
 }
 .kaiketu .con h3{
   margin: 0 0 50px 0;
+  font-size: 1rem;
 }
 .kaiketu .con .image{
   width: 20%;
@@ -329,6 +337,7 @@ header a{
 }
 .kaiketu .contents h2{
   font-size: 0.7rem;
+  font-weight: normal;
 }
 .kaiketu .co{
   width: 100%;
@@ -339,4 +348,19 @@ header a{
   width:100%;
   padding:80px 0;
   background-color: #EFEFEF;
+}
+
+.mokku .mokkucon{
+  width:80%;
+  margin: auto;
+}
+
+.mokku .mokkucon .toptitle{
+  width:40%;
+  margin: 0;
+}
+
+.mokku .mokkucon .toptitle img{
+  width:15%;
+  margin: 0;
 }
