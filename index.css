@@ -5,7 +5,9 @@ html{
   /*width:getWinSize();後で記入*/
   width:1349px;
   color:#8F6D6D;
-}
+  max-width: 1349px;
+  max-height: 671px;
+  }
 
 body {
   margin: 0;
@@ -54,7 +56,10 @@ header a{
 }
 
 .top{
+width:100vw;
   height:100vh;
+  max-height: 671px;
+  max-width: 1349px;
   text-align: center;
   position: relative;
 
@@ -62,12 +67,13 @@ header a{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-
+font-family: 'Caveat', cursive;
 
 
 }
 .top .title{
-  top: -100px;
+
+  top: -50%;
   right: 0;
   bottom: 0;
   left: 0;
@@ -75,7 +81,29 @@ header a{
   width: 80%;
   height:0;
   position: absolute;
+  line-height: 8rem;
+}
 
+.top .title-box{
+
+  width: 80%;
+  margin: auto;
+  padding: 20px 20px 70px 20px;
+background-color: rgb(255,255,255,0.3);
+border: 5px double;
+box-sizing:border-box;
+}
+
+.top .title h2{
+  font-size: 4rem;
+  margin: 0;
+font-weight: lighter;
+
+}
+.top .title h1{
+  font-size: 13rem;
+  margin: 0;
+  font-weight: lighter;
 
 
 }
@@ -84,17 +112,19 @@ header a{
   text-align: center;
   background-color: white;
   width:100%;
+  font-size: 1.5rem;
+
 }
 
 
 .profile{
   width:100%;
+  height:100vh;
+  max-height: 671px;
   background-image:url(profile.png);
-  /*background-position:0 -200px;*/
   background-repeat: no-repeat;
   background-size: cover;
-  height:100vh;
-  font-size: 12px;
+  font-size: 1rem;
 
 
 }
@@ -111,7 +141,7 @@ header a{
 }
 .profile .profileCon .statea h3{
   font-size: 14px;
-  line-height:1.6rem;
+  line-height:1.1rem;
   font-weight: lighter;
 
 }
@@ -139,15 +169,26 @@ header a{
 }
 .profile .skillheading h1{
   margin:0;
+  text-shadow: 1px 1px 1px white,
+             -1px 1px 1px white,
+             1px -1px 1px white,
+             -1px -1px 1px white;
 }
 .profile .skill{
   margin-top: 30px;
   width:100%;
+
+  /*background-color: rgb(255,255,255,0.5);
+  padding:0 0px 5px 10px;*/
 }
 .profile .software{
   width: 50%;
   display: inline-block;
   padding:0 10px 0 0;
+  text-shadow: 1px 1px 1px white,
+             -1px 1px 1px white,
+             1px -1px 1px white,
+             -1px -1px 1px white;
 }
 .profile .skillheading1,.skillheading2{
 
@@ -182,19 +223,10 @@ header a{
   padding: 0 0 0 10px;
   vertical-align:top;
 }
-.title{
-  margin:   0;
-}
-.title .title1{
-  font-size: 33px;
-}
-
-.title .title2{
-  font-size: 110px;
-}
 
 .motto{
   height:100vh;
+  max-height: 671px;
   text-align: center;
   position: relative;
   font-size: 18px;
@@ -225,43 +257,67 @@ header a{
 
 .works{
   width:100%;
-  font-size: 12px;
-
-
+  font-size: 1rem;
 }
+
+
 
 .web{
   width: 100%;
   height:80vh;
+  max-height: 544.8px;
   background-image:url(webhaikei.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.works .web .conten{
-  text-align: center;
+.works .conten{
+  width: 80%;
+  margin: auto;
+
 
 }
-.works .web .con{
+.works .con{
   display: inline-block;
-  width: 25%;
+  width: 40%;
   text-align: left;
-  color: white;
-  padding-right: 30px;
+
   vertical-align:top;
   padding: 100px 0;
-}
-.works .web .imm{
-
-  display: inline-block;
-
-}
-.works .web img{
-
-  height:80vh;
+  float: right;
 }
 
-.cp_btn{
+.works .web .con{
   color:white;
+
+}
+
+
+.works .con h6{
+  font-size: 0.7rem;
+  margin: 0;
+}
+.works .con h2{
+  font-size: 2rem;
+  margin: 5px 0 20px 0;
+}
+
+.works .tram .con h2{
+  line-height:2.5rem;
+}
+
+.works .con h4{
+  font-size: 0.8rem;
+
+}
+.works .imm{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.works  img{
+  height:80vh;
+  max-height: 544.8px;
 }
 
 
@@ -269,36 +325,13 @@ header a{
 .tram{
   width: 100%;
   height:80vh;
+  max-height: 544.8px;
   background-image: url("tramtophaikei.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.works .tram .conten{
-  text-align: center;
-
-}
-.works .tram .con{
-  display: inline-block;
-  width: 25%;
-  text-align: left;
-  padding-right: 30px;
-  vertical-align:top;
-  padding: 100px 0;
-}
-.works .tram .imm{
-
-  display: inline-block;
-
-}
-.works .tram img{
-  height: 80vh;
-
-}
-
-.works .tram .cp_btn{
   color:#8F6D6D;
 }
+
 
 
 
@@ -355,6 +388,42 @@ footer{
 
 footer .tex{
   padding: 20px;
+}
+
+.botann{
+  text-decoration: none;
+  font-weight:nomal;
+}
+.works .web .botann {
+  background-color: #E39431;
+  padding: 10px 50px;
+text-align: center;
+border-radius: 30px;
+color:white;
+
+}
+.works .web .botann:hover {
+  background-color: #BD782F;
+  transition: 0.5s;
+
+}
+
+.works .bt{
+  width: 50%;
+margin: 40px auto 0 auto;
+}
+
+.works .tram .botann {
+  background-color: #C7615E;
+padding: 10px 50px;
+text-align: center;
+border-radius: 30px;
+
+color:white;
+}
+.works .tram .botann:hover {
+  background-color: #A45250;
+  transition: 0.5s;
 }
 
 /*

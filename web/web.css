@@ -51,7 +51,7 @@ header a{
 
 .katop{
   width:100%;
-  height: 100vh;
+  height: 95vh;
 
   background-image: url("webhaikei.jpg");
   background-attachment: fixed;
@@ -68,6 +68,7 @@ header a{
 }
 .katop .image{
   display: inline-block;
+
   float: left;
   width:45%;
   font-size: 4rem;
@@ -75,6 +76,7 @@ header a{
 
 .katop .con{
   display: inline-block;
+vertical-align: top;
   width: 45%;
   float: right;
   color:white;
@@ -230,8 +232,8 @@ header a{
 .kadai .con1 .content1 img{
   width: 100%;
 }
-.kadai .con1 .content1 a{
-  font-size: 0.6rem;
+.kadai .lin{
+  font-size: 0.7rem;
 
 }
 
@@ -240,10 +242,10 @@ header a{
   text-align: center;
   display: inline-block;
   vertical-align: top;
-  margin: 0 100px;
+  margin: 100px 100px;
 }
 .kadai .con1 .image img{
-  width: 100%;
+  width: 40%;
 
 }
 .kadai .con1 .content2{
@@ -343,10 +345,10 @@ header a{
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  margin: 0 20px;
+  margin: 100px 20px;
 }
 .kaiketu .con .image img{
-  width: 100%;
+  width: 15%;
 
 }
 
@@ -451,16 +453,17 @@ header a{
 }
 
 .hyouka .content2{
-  width: 100%;
+  width: 80%;
   padding: 50px 0;
-  text-align: center;
-
+margin: auto;
 }
 
 .hyouka .content2 .image{
-  width: 40%;
+  width: 50%;
   display: inline-block;
   vertical-align: top;
+  float: left;
+
 }
 .hyouka .content2 .image img{
   width: 100%;
@@ -470,6 +473,9 @@ header a{
   display: inline-block;
   vertical-align: top;
   text-align: center;
+  float:right;
+  width: 50%;
+    padding: 200px 0;
 }
 
 .hyouka .content2 .text h1{
@@ -482,12 +488,13 @@ header a{
   font-size: 1.8rem;
 }
 
-.hyouka .content2 .rink{
+.hyouka .rinkuu{
   width: 100%;
   text-align: center;
-  margin: 50px 0;
+
 }
 
+.hyouka .rinkuu a{}
 
 
 .lb {
