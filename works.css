@@ -252,6 +252,29 @@ vertical-align: -10%;
   width: 100%;
 }
 
+.back{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.back .cp_btn {
+  font-size: 15px;
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+}
+.back .cp_btn:hover {
+  background: #67c5ff;
+  color: white;
+}
+
+
+
 
 .lb {
     display: flex;

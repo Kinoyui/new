@@ -264,7 +264,7 @@ font-weight: lighter;
 
 .web{
   width: 100%;
-  height:80vh;
+  height:70vh;
   max-height: 544.8px;
   background-image:url(webhaikei.jpg);
   background-repeat: no-repeat;
@@ -282,8 +282,12 @@ font-weight: lighter;
   text-align: left;
 
   vertical-align:top;
-  padding: 100px 0;
+  padding: 90px 0;
   float: right;
+}
+
+.works .tram .con{
+  padding: 60px 0;
 }
 
 .works .web .con{
@@ -316,7 +320,7 @@ font-weight: lighter;
 }
 
 .works  img{
-  height:80vh;
+  height:70vh;
   max-height: 544.8px;
 }
 
@@ -324,7 +328,7 @@ font-weight: lighter;
 
 .tram{
   width: 100%;
-  height:80vh;
+  height:70vh;
   max-height: 544.8px;
   background-image: url("tramtophaikei.jpg");
   background-repeat: no-repeat;
